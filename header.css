@@ -1,0 +1,77 @@
+.header {
+	height: 80px;
+	box-shadow: 0 4px 16px 0 rgba(0,0,0,0.19);
+	padding: 0 20px;
+}
+.logo{
+	margin-top: 15px;
+	float: left;
+	max-width: 100%;
+}
+.menu{
+	float: right;
+	margin-top: 35px;
+}
+.menu a{
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 10px;
+	transition: 0.4s;
+	font-weight: bold;
+}
+.show-menu-btn, .hide-menu-btn{
+	transition: 0.4s;
+	font-size: 30px;
+	cursor: pointer;
+	display: none;
+
+}
+.show-menu-btn{
+	float: right;
+}
+.show-menu-btn i{
+	margin-top: 30px;
+}
+.menu a:hover, 
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+	color: dodgerblue;
+}
+#chk{
+	position: absolute;
+	visibility: hidden;
+	z-index: -1111;
+}
+.header:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

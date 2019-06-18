@@ -1,0 +1,30 @@
+.l1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+.check-l1{
+	width: 320px;
+	padding: 20px;
+	/* margin: 20px; */
+	display: flex;
+	flex-direction: row;
+}
+
+.check-content{
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.check-content p{
+	text-align: justify-all;
+	font-size: 20px;
+}
+.check-content span{
+	font-weight: bold;
+	font-size: 20px;
+}
+
